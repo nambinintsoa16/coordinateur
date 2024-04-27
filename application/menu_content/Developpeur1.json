@@ -1,0 +1,283 @@
+{
+    "couleur_base": "rgb(0, 98, 235)",
+    "couleur_nav": "linear-gradient(rgb(0, 185, 249), rgb(0, 98, 235))",
+    "menu": [
+        {
+            "text": "Etat hebdomadaire",
+            "icon": "flaticon-share-1",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Matricule",
+                    "icon": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_previsionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_reel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_livre"
+                    }
+
+                    ]
+                },
+                {
+                    "text": "Global",
+                    "icon": "",
+                    "link": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/previsionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/reel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/livre"
+                    }
+
+                    ]
+
+                },
+                {
+                    "text": "Page",
+                    "icon": "",
+                    "link": "",
+                    "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailPrevisionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailReel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailLivre"
+                    }
+
+                    ]
+                }
+            ]
+        },
+
+        {
+            "text": "Etat mensuel",
+            "icon": "flaticon-analytics",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Etat global",
+                    "icon": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Etat previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobal"
+                    },
+                    {
+                        "text": "Etat réel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobalReel"
+                    },
+                    {
+                        "text": "Etat livré",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobalLivre"
+                    }
+
+                    ]
+                },
+                {
+                    "text":"Par matricule",
+                    "icon":"flaticon-paypal",
+                    "link": "Developpeur/mensuel/etatParMatricule"
+                },
+                {
+                    "text":"Par page",
+                    "icon":"flaticon-paypal",
+                    "link": "Developpeur/mensuel/etatParPage"
+                }
+            ]
+        },
+
+        {
+            "text":"Bilan",
+            "icon":"fa fa-bar-chart",
+            "link": "Developpeur/mensuel/bilan"
+        },
+        {
+            "text": "Semaine ",
+            "icon": "fa fa-credit-card",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Etat prévisionnel",
+                    "icon": "",
+                    "link": "Developpeur/semaine/previsionnel"
+                },
+                {
+                    "text": "Etat livré",
+                    "icon": "",
+                    "link": "Developpeur/semaine/livre"
+                },
+                {
+                    "text": "Etat réel",
+                    "icon": "",
+                    "link": "Developpeur/semaine/reel"
+                }
+            ]
+        },
+        {
+            "text": "CA Mensuel",
+            "icon": "fa fa-money",
+            "link": "Developpeur/mensuel/mois"
+        },
+        {
+            "text": "Tsenakoty Mensuel",
+            "icon": "fa fa-cart-arrow-down",
+            "link": "Developpeur/tsenakoty/etat_tsenakoty"
+        },
+        {
+            "text": "Tsenakoty",
+            "icon": "flaticon-cart",
+            "link": "Developpeur/tsenakoty/etat_tsenakoty",
+            "sous_menu": [{
+                "text": "Goodies",
+                "icon": "",
+                "link": "Developpeur/tsenakoty/goodies"
+            },{
+                "text": "Offre promo (CA)",
+                    "icon": "",
+                    "link": "Developpeur/tsenakoty/offre_promo"
+            }
+            ]
+        },
+        {
+            "text": "Client",
+            "icon": "fa fa-users",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Liste client",
+                    "icon": "",
+                    "link": "Developpeur/client/liste"
+                },
+                {
+                    "text": "Client par page",
+                    "icon": "",
+                    "link": "Developpeur/client/client_par_page"
+                },
+                {
+                    "text": "Client sans achat",
+                    "icon": "",
+                    "link": "Developpeur/client/clientsac"
+                }
+            ]
+        },
+        {
+            "text":"Prime",
+            "icon":"flaticon-paypal",
+            "link": "Developpeur/performance/prime"
+        },
+        {
+            "text": "Statistique",
+            "icon": "flaticon-graph-2",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Commentaires journaliers",
+                    "icon": "",
+                    "link": "Developpeur/performance/jour"
+                },
+                {
+                    "text": "Commentaires mensuels",
+                    "icon": "",
+                    "link": "Developpeur/performance/mensuelle"
+                },
+                {
+                    "text": "Relance clientèle",
+                    "icon": "",
+                    "link": "Developpeur/performance/like"
+                },
+                {
+                    "text": "J'aime mensuel",
+                    "icon": "",
+                    "link": "Developpeur/performance/jaime"
+                },
+                {
+                    "text": "Page journalier",
+                    "icon": "",
+                    "link": "Developpeur/performance/page"
+                },
+                {
+                    "text": "Page mensuel",
+                    "icon": "",
+                    "link": "Developpeur/performance/page_mensuelle"
+                }
+            ]
+        },
+        {
+            "text": "Nouveaux clients",
+            "icon": "fa fa-handshake-o",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Journaliers",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/nouveaux/journalier"
+                },
+                {
+                    "text": "30 derniers jours",
+                    "icon": "",
+                    "link": "Developpeur/nouveaux/jours_derniers"
+                },
+                {
+                    "text": "Mensuels",
+                    "icon": "",
+                    "link": "Developpeur/nouveaux/mensuel"
+                }
+            ]
+        },
+       
+        {
+            "text": "Premier achat",
+            "icon": "fa fa-ils",
+            "link": "Developpeur/nouveaux/premier_achat"
+        },
+        {
+            "text": "Koty & smile",
+            "icon": "flaticon-coins",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Top 100 Koty par page",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/client/rangs"
+                },
+                {
+                    "text": "Top 100 Koty & Smile MAGESTI",
+                    "icon": "",
+                    "link": "Developpeur/client/rang"
+                }
+            ]
+        }, 
+        {
+            "text":"Assiduité",
+            "icon":"flaticon-success",
+            "link": "Developpeur/assiduite/assiduit"
+        }
+
+    ]
+}

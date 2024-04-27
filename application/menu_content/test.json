@@ -1,0 +1,140 @@
+{
+    "couleur_base": "rgb(0, 98, 235)",
+    "couleur_nav": "linear-gradient(rgb(0, 185, 249), rgb(0, 98, 235))",
+    "menu": [{
+            "text": "Hebdomadaire",
+            "icon": "fa fa-bookmark",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Etat prévisionnel",
+                    "icon": "",
+                    "link": "Developpeur/hebdomadaire/previsionnel"
+                },
+                {
+                    "text": "Etat réel",
+                    "icon": "",
+                    "link": "Developpeur/hebdomadaire/reel"
+                },
+                {
+                    "text": "Etat livré",
+                    "icon": "venteDuJour.ico",
+                    "link": "Developpeur/hebdomadaire/livre"
+                }
+            ]
+        },
+        {
+            "text": "Semaine ",
+            "icon": "fa fa-credit-card",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Etat prévisionnel",
+                    "icon": "",
+                    "link": "Developpeur/semaine/previsionnel"
+                },
+                {
+                    "text": "Etat livré",
+                    "icon": "",
+                    "link": "Developpeur/semaine/livre"
+                },
+                {
+                    "text": "Etat réel",
+                    "icon": "",
+                    "link": "Developpeur/semaine/reel"
+                }
+            ]
+        },
+        {
+            "text": "Mensuel",
+            "icon": "fa fa-object-group",
+            "link": "Developpeur/mensuel/mois"
+        },
+        {
+            "text": "Client",
+            "icon": "fa fa-users",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Liste client",
+                    "icon": "",
+                    "link": "Developpeur/client/liste"
+                },
+                {
+                    "text": "Client par page",
+                    "icon": "",
+                    "link": "Developpeur/client/client_par_page"
+                }
+            ]
+        },
+        {
+            "text": "---------",
+            "icon": "fa fa-users",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Journalière",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/performance/perfo"
+                },
+                {
+                    "text": "Mensuelle",
+                    "icon": "",
+                    "link": "Developpeur/performance/mensuelle"
+                }
+            ]
+        },
+        {
+            "text": "Assiduité",
+            "icon": "fa fa-bell",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Journalière",
+                    "icon": "",
+                    "link": "Developpeur/assiduite/presence"
+                },
+                {
+                    "text": "Mensuelle",
+                    "icon": "",
+                    "link": "Developpeur/assiduite/presence_mensuelle"
+                }
+
+            ]
+        },
+
+        {
+            "text": "Performance",
+            "icon": "fa fa-bell",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Journalière",
+                    "icon": "",
+                    "link": "Developpeur/performance/jour"
+                },
+                {
+                    "text": "Mensuelle",
+                    "icon": "",
+                    "link": "Developpeur/performance/mensuelle"
+                }
+
+            ]
+        },
+        {
+            "text": "Ca par compte et page",
+            "icon": "fa fa-money",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Previsionnel",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/chiffre_d_affaire/etat_previsionnel"
+                },
+                {
+                    "text": "Livré",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/chiffre_d_affaire/etat_livre"
+                },
+                {
+                    "text": "Réel",
+                    "icon": "fa fa-bar-chart",
+                    "link": "Developpeur/chiffre_d_affaire/etat_reel"
+                }
+            ]
+        }
+    ]
+}

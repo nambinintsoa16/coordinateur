@@ -1,0 +1,287 @@
+{
+    "couleur_base": "rgb(0, 98, 235)",
+    "couleur_nav": "linear-gradient(rgb(0, 185, 249), rgb(0, 98, 235))",
+    "menu": [ {
+            "text": "Chiffre d'affaire par heure",
+            "icon": "icon-speech",
+            "link": "",
+            "sous_menu": [
+
+                {
+                    "text": "Par matricule",
+                    "icon": "",
+                    "link": "Developpeur/Hebdomadaire/par_matricule"
+                },
+
+                {
+                    "text": "Par page",
+                    "icon": "",
+                    "link": "Developpeur/Hebdomadaire/par_page"
+                },
+
+                {
+                    "text": "Par mensuel",
+                    "icon": "",
+                    "link": "Developpeur/Hebdomadaire/par_mensuel"
+                }
+
+            ]
+
+        }, 
+        {
+            "text": "Chiffre d'affaire hebdo",
+            "icon": "flaticon-share-1",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Matricule",
+                    "icon": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_previsionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_reel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/rapport_livre"
+                    }
+
+                    ]
+                },
+                {
+                    "text": "Global",
+                    "icon": "",
+                    "link": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/previsionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/reel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/livre"
+                    }
+
+                    ]
+
+                },
+                {
+                    "text": "Page",
+                    "icon": "",
+                    "link": "",
+                    "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailPrevisionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailReel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/hebdomadaire/detailLivre"
+                    }
+
+                    ]
+                }
+            ]
+        },
+
+        {
+            "text": "Chiffre d'affaire mensuel",
+            "icon": "flaticon-analytics",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Etat global",
+                    "icon": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Etat previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobal"
+                    },
+                    {
+                        "text": "Etat réel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobalReel"
+                    },
+                    {
+                        "text": "Etat livré",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatGlobalLivre"
+                    }
+
+                    ]
+                },
+                {
+                    "text":"Par matricule",
+                    "icon":"flaticon-paypal",
+                    "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/previsionnel"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/reel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/livre"
+                    },
+                    {
+                        "text":"Global",
+                        "icon":"flaticon-paypal",
+                        "link": "Developpeur/mensuel/etatParMatricule"
+                    }
+
+                    ]
+                },
+               
+                {
+                    "text":"Par page",
+                    "icon":"flaticon-paypal",
+                    "sous_sous_menu":[
+                    {
+                        "text": "Previsionnel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatParPage"
+                    },
+                    {
+                        "text": "Réel",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatReel"
+                    },
+                    {
+                        "text": "Livré",
+                        "icon": "",
+                        "link": "Developpeur/mensuel/etatLivre"
+                    }
+
+                    ]
+                }
+            ]
+        },
+
+        {
+            "text": "Performances",
+            "icon": "flaticon-envelope-2",
+            "link": "",
+            "sous_menu": [{
+                    "text": "Discussions journalières",
+                    "icon": "",
+                     "sous_sous_menu":[
+                    {
+                        "text": "Etat global",
+                        "icon": "",
+                        "link": "Developpeur/performance/discussionJournaliere"
+                    },
+                    {
+                        "text": "Etat discussion nouveaux clients",
+                        "icon": "",
+                        "link": "Developpeur/performance/etatNouveauxClt"
+                    },
+                    {
+                        "text": "Etat discussion anciens clients",
+                        "icon": "",
+                        "link": "Developpeur/performance/etatAncienClt"
+                    },
+                    {
+                        "text": "Etat par matricule",
+                        "icon": "",
+                        "link": "Developpeur/performance/discussionParMatricule"
+                    },
+                    {
+                        "text": "Etat par page",
+                        "icon": "",
+                        "link": "Developpeur/performance/etatParPage"
+                    }
+
+                    ]
+                },
+                {
+                    "text":"Discussions hebdomadaires",
+                    "icon":"flaticon-paypal",
+                    "sous_sous_menu":[
+                         {
+                            "text": "Etat global",
+                            "icon": "",
+                            "link": "Developpeur/performance/EtatDiscussion"
+                        },
+                        {
+                            "text": "Etat par matricule",
+                            "icon": "",
+                            "link": "Developpeur/performance/discussionParMatricule"
+                        },
+                        {
+                            "text": "",
+                            "icon": "",
+                            "link": ""
+                        }
+
+                    ]
+                }
+            ]
+        },  
+        {
+            "text":"Liste des clients",
+            "icon":"flaticon-users",
+            "link": "Developpeur/client/liste_des_clients"
+        }, 
+        {
+            "text":"Assiduité",
+            "icon":"flaticon-success",
+            "link": "Developpeur/assiduite/assiduit"
+        }
+        , 
+        {
+            "text":"Rapport facture",
+            "icon":"fa fa-bar-chart",
+            "link": "Developpeur/facture/Rapport_facture"
+        } , 
+        {
+            "text":"Bilan",
+            "icon":"fa fa-bar-chart",
+            "link": ""
+        }
+        , 
+        {
+            "text":"Liste des oplg",
+            "icon":"flaticon-users",
+            "link": "Developpeur/operatrice/listeOplg"
+        }
+        , 
+        {
+            "text":"Rapport des relances",
+            "icon":"flaticon-chat-8",
+            "link": "Developpeur/relance/rapportRelance"
+        }
+        ,
+        {
+            "text": " Livraison de la semaine ",
+            "icon": "fa fa-money",
+            "link" : "Developpeur/operatrice/livraison"
+        }
+
+    ]
+}
